@@ -11,6 +11,7 @@ import{PersonalComponent} from './dashboard/personal/personal.component'
 import { SkilsComponent } from './dashboard/skils/skils.component';
 import { ExpComponent } from './dashboard/exp/exp.component';
 import { ContactsComponent } from './dashboard/contacts/contacts.component';
+import {FormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { ContactsComponent } from './dashboard/contacts/contacts.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AngularFontAwesomeModule
+    AngularFontAwesomeModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
